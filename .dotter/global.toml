@@ -1,0 +1,14 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+
+[default.variables]
+
+[emacs.files]	
+"emacs/init.el" = "~/.emacs.d/init.el"
+
+[settings]
+default_target_type = "automatic"
