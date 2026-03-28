@@ -13,5 +13,8 @@ depends = ["emacs", "git"]
 [git.files]
 "git/.gitconfig" = "~/.gitconfig"
 
+[starship.files]
+"starship/config.toml" = "~/.config/starship/config.toml"
+
 [settings]
 default_target_type = "automatic"
