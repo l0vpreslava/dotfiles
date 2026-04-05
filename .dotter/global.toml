@@ -7,6 +7,10 @@ depends = ["emacs", "git"]
 
 [default.variables]
 
+[termux.files]
+"termux/colors.properties" = "~/.termux/colors.properties"
+"termux/start-x11" = "~/.shortcuts/start-x11"
+
 [emacs.files]	
 "emacs/init.el" = "~/.emacs.d/init.el"
 
