@@ -9,7 +9,9 @@ depends = ["emacs", "git"]
 
 [termux.files]
 "termux/colors.properties" = "~/.termux/colors.properties"
-"termux/start-x11" = "~/.shortcuts/start-x11"
+"termux/X11" = { target = "~/.shortcuts/tasks/X11", type = "template" }
+"termux/Jupyter" = { target = "~/.shortcuts/tasks/Jupyter", type = "template" }
+"termux/Shut" = { target = "~/.shortcuts/Shutdown all", type = "template" }
 
 [emacs.files]	
 "emacs/init.el" = "~/.emacs.d/init.el"

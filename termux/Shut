@@ -1,0 +1,5 @@
+printf "Confirm action? (y/n): "
+read answer
+[ "$answer" != "y" ] && exit 1
+pkill -u $(whoami)
+
