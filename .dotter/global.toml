@@ -1,7 +1,7 @@
 [helpers]
 
 [default]
-depends = ["emacs", "git"]
+depends = ["emacs", "git", "fish", "eza", "zoxide", "starship", "rustup"]
 
 [default.files]
 
@@ -21,6 +21,23 @@ depends = ["emacs", "git"]
 
 [starship.files]
 "starship/config.toml" = "~/.config/starship/config.toml"
+"fish/conf.d/starship.fish" = "~/.config/fish/conf.d/starship.fish"
+
+[wezterm.files]
+"wezterm/wezterm.lua" = "~/.config/wezterm/wezterm.lua"
+
+[fish.files]
+"fish/config.fish" = "~/.config/fish/config.fish"
+
+[eza.files]
+"fish/conf.d/eza.fish" = "~/.config/fish/conf.d/eza.fish"
+
+[zoxide.files]
+"fish/conf.d/zoxide.fish" = "~/.config/fish/conf.d/zoxide.fish"
+
+[rustup.files]
+"fish/conf.d/rustup.fish" = "~/.config/fish/conf.d/rustup.fish"
+
 
 [settings]
 default_target_type = "automatic"

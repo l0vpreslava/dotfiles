@@ -38,6 +38,7 @@
  '(custom-safe-themes
    '("ba98102679e7ed71a0b79c9a490328370b6b20537e04730bf0028bdd8a2418a9"
      default))
+ '(inhibit-startup-screen t)
  '(package-selected-packages
    '(## catppuccin-theme company flycheck lsp-mode lsp-ui tree-sitter)))
 (custom-set-faces
