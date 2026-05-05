@@ -21,10 +21,13 @@
 
 (set-frame-parameter nil 'alpha-background 70)
 (add-to-list 'default-frame-alist '(alpha-background . 70))
+(global-display-line-numbers-mode t)
+(column-number-mode t)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (setq-default cursor-type 'bar)
 (set-frame-font "JetBrains Mono 14" nil t)
+(setq make-backup-files nil)
 
 (add-hook 'after-init-hook 'global-company-mode)
 (add-hook 'python-mode-hook #'lsp-deferred)
